@@ -1,0 +1,20 @@
+import LiveVideo from "./LiveVideo/LiveVideo"
+
+const LiveClasses = () => {
+  return (
+    <>
+        <div>
+            <div className=" text-center bg-[#F2F4F9] pt-20 my-20 rounded-xl">
+                <h5 className=" text-center font-bold text-red-600 py-2">Live Class</h5>
+                <h1 className=" font-bold text-[35px] md:text-[44px] md:leading-tight leading-normal text-wrap px-12">High quality video,audio <br className=" md:block hidden"/>
+                & live class</h1>
+                <div className=" py-10">
+                    <LiveVideo/>
+                </div>
+            </div>
+        </div>
+    </>
+  )
+}
+
+export default LiveClasses
