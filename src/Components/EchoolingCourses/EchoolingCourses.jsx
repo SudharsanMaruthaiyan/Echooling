@@ -13,8 +13,8 @@ const EchoolingCourses = () => {
                 <SearchNav/>
                 <div className=" relative">
                     <div className=" text-center bg-[#F2F4F9] pt-20 pb-60 my-20 rounded-xl">
-                        <h5 className=" text-center font-bold text-red-600 py-2">Echooling available courses</h5>
-                        <h1 className=" font-bold text-[35px] md:text-[44px] md:leading-tight leading-normal text-wrap px-12">Online Coaching Lessons For <br className=" md:block hidden"/>
+                        <h5 className=" text-center font-bold text-red-600 py-2 font-[poppins]">Echooling available courses</h5>
+                        <h1 className=" font-bold text-[35px] md:text-[40px] md:leading-tight leading-normal text-wrap px-12  font-[poppins]">Online Coaching Lessons For <br className=" md:block hidden"/>
                         Remote Learning</h1>
                     </div>
                     <div className=" px-5 lg:px-[100px] absolute top-[320px] md:top-[270px]">
