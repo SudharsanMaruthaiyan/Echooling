@@ -6,9 +6,9 @@ const Mentor = () => {
   return (
     <>
         <div>
-            <h3 className=" font-medium text-[#1363DF] bg-[#E7EFFC] px-3 py-2 rounded-md w-fit">Our Qualified People Matter</h3>
+            <h3 className=" font-medium text-[#1363DF] bg-[#E7EFFC] uppercase px-3 py-2 rounded-md w-fit">Our Qualified People Matter</h3>
             <div className=" flex justify-between items-center flex-wrap">
-                <div><h1 className=" font-bold text-[#082A5E] md:text-[36px] text-nowrap text-[29px] font-[poppins] mt-3">Top <span className="text-[#1363DF]">Class</span> Mentors</h1></div>
+                <div><h1 className=" font-bold text-[#082A5E] md:text-[36px] text-nowrap text-[29px] font-[poppins] uppercase mt-3">Top <span className="text-[#1363DF]">Class</span> Mentors</h1></div>
                 <div><h1 className=" font-bold text-[#1363DF] py-3 px-5 border-2 border-[#1363DF] font-[poppins] hover:bg-[#1363DF] hover:text-white transition-colors rounded-md md:mt-0 mt-5">ALL INSTRUCTOR</h1></div>
             </div> 
 

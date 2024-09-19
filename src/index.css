@@ -10,7 +10,7 @@
 #s-btn{
     position: relative;
     z-index: 1;
-    background: #39D4D6;
+    background: #FFDF0C;
     border-radius: 10px;
 }
 #s-btn::before{
@@ -20,7 +20,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: #674CEF;
+    background: #014bae;
     z-index: -1;
     transform-origin: left;
     transition: transform 0.5s ease;
@@ -63,7 +63,7 @@
 #H-btn{
     position: relative;
     z-index: 1;
-    background: #39D4D6;
+    background: #FFDF0C;
     border-radius: 10px;
 }
 #H-btn::before{
@@ -73,7 +73,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: #674CEF;
+    background: #014bae;
     z-index: -1;
     transform-origin: left;
     transition: transform 0.5s ease;

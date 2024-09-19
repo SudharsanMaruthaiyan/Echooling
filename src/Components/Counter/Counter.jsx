@@ -2,25 +2,25 @@ import CounterCard from "./CounterCard/CounterCard"
 const data = [
     {
       imageUrl:
-        "https://ik.imagekit.io/jjyo3gsee/Echooling/user.png?updatedAt=1726678314884",
+        "https://ik.imagekit.io/jjyo3gsee/Echooling/user%20(1).png?updatedAt=1726763977514",
       count: 120,
       label: "Our Happy Students",
     },
     {
       imageUrl:
-        "https://ik.imagekit.io/jjyo3gsee/Echooling/graduation-cap.png?updatedAt=1726678314723",
+        "https://ik.imagekit.io/jjyo3gsee/Echooling/graduation-cap%20(1).png?updatedAt=1726763977352",
       count: 17,
       label: "Enrolled Learners",
     },
     {
       imageUrl:
-        "https://ik.imagekit.io/jjyo3gsee/Echooling/speech.png?updatedAt=1726678314767",
+        "https://ik.imagekit.io/jjyo3gsee/Echooling/speech%20(1).png?updatedAt=1726763977320",
       count: 70,
       label: "Expert Instructor",
     },
     {
       imageUrl:
-        "https://ik.imagekit.io/jjyo3gsee/Echooling/thumbs-up.png?updatedAt=1726678314880",
+        "https://ik.imagekit.io/jjyo3gsee/Echooling/thumbs-up%20(1).png?updatedAt=1726763977307",
       count: 98 ,
       label: "Satisfaction Rate",
     },
@@ -30,9 +30,9 @@ const Counter = () => {
     <>
         <div>
             <div className=" flex justify-center items-center gap-12 my-20">
-                <span className=" w-20 h-[3px] bg-blue-600 lg:block hidden"></span>
-                <h1 className=" font-[poppins] text-2xl font-bold text-center">Trusted by <span className=" text-[#0D5FF9]">Companies</span> Achievements</h1>
-                <span className=" w-20 h-[3px] bg-blue-600 lg:block hidden"></span>
+                <span className=" w-20 h-[3px] bg-[#014BAE] lg:block hidden"></span>
+                <h1 className=" font-[poppins] text-2xl font-bold text-center uppercase">Trusted by <span className=" text-[#014BAE]">Companies</span> Achievements</h1>
+                <span className=" w-20 h-[3px] bg-[#014BAE] lg:block hidden"></span>
             </div>
             <div>
                 <CounterCard data={data}/>
